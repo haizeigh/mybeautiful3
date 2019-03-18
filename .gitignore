@@ -1,0 +1,17 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+.gitignore
+commom-manager/commom-manager-fcade/target/
+commom-manager/commom-manager-mapper/target/
+commom-manager/commom-manager-pojo/target/
+commom-manager/commom-manager-service/target/
+commom-manager/commom-manager-web/target/
+commom-utils/target/generated-sources/
+/commom-manager/test.txt
