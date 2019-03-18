@@ -1,0 +1,1 @@
+consumerTraceIdFilter=com.company.dubboFilter.ConsumerTraceIdFilter

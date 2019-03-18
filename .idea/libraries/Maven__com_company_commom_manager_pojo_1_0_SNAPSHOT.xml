@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Maven: com.company:commom-manager-pojo:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://D:/Test/.m2/repository/com/company/commom-manager-pojo/1.0-SNAPSHOT/commom-manager-pojo-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/commom-manager/commom-manager-pojo/commom-manager-pojo-1.0-SNAPSHOT-javadoc.jar!/" />
+      <root url="jar://D:/Test/.m2/repository/com/company/commom-manager-pojo/1.0-SNAPSHOT/commom-manager-pojo-1.0-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/commom-manager/commom-manager-pojo/commom-manager-pojo-1.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://D:/Test/.m2/repository/com/company/commom-manager-pojo/1.0-SNAPSHOT/commom-manager-pojo-1.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

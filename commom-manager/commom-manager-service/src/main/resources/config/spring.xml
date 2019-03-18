@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-3.1.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+
+    <!--开启注解扫描-->
+    <context:component-scan base-package="com.company.service"/>
+    <!--开启aop切面代理 提供注释方法-->
+    <aop:aspectj-autoproxy proxy-target-class="true">
+    </aop:aspectj-autoproxy>
+
+    <!-- 激活annotation功能 ?????-->
+    <context:annotation-config></context:annotation-config>
+    <!--<content:spring-configured></content:spring-configured>-->
+
+    <!--配置事务管理器       此处id是其他值的话,会报错-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <!-- 使用annotation定义事务 -->
+    <tx:annotation-driven transaction-manager="transactionManager" />
+
+    <!--配合tx配置事务-->
+    <aop:config>
+        <aop:pointcut id="point"   expression="execution(* com.company.service.serviceimp.*.*(..))"></aop:pointcut>
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="point"></aop:advisor>
+    </aop:config>
+
+    <tx:advice id="txAdvice">
+        <tx:attributes>
+        <tx:method name="add*" propagation="REQUIRED" ></tx:method>
+        <tx:method name="dele*" propagation="REQUIRED"></tx:method>
+        <tx:method name="update*" propagation="REQUIRED"></tx:method>
+        <tx:method name="find*" read-only="true"></tx:method>
+    </tx:attributes>
+    </tx:advice>
+
+    <!--加载文件-->
+    <import resource="spring-mybatis.xml"/>
+    <import resource="dubbo.xml"/>
+    <import resource="quartz.xml"/>
+<!--    rabbit连接不上 会出错-->
+    <import resource="rabbit.xml"/>
+
+
+</beans>

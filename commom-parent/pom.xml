@@ -1,0 +1,197 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.company</groupId>
+  <artifactId>commom-parent</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>commom-parent</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>3.8.1</version>
+        <scope>test</scope>
+    </dependency>
+
+  </dependencies>
+
+  <profiles>
+    <!--profile配置不同的构建配置-->
+    <profile>
+      <id>dev</id>
+
+      <build>
+        <plugins>
+          <!--这是显示default生命周期的文本信息的插件-->
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-antrun-plugin</artifactId>
+            <version>1.1</version>
+            <executions>
+              <!--execution定义执行的任务与绑定的阶段-->
+              <execution>
+                <id>id.validate</id>
+                <phase>validate</phase>
+                <goals>
+                  <goal>run</goal>
+                </goals>
+                <configuration>
+                  <tasks>
+                    <echo>validate phase</echo>
+                  </tasks>
+                </configuration>
+              </execution>
+              <execution>
+                <id>id.compile</id>
+                <phase>compile</phase>
+                <goals>
+                  <goal>run</goal>
+                </goals>
+                <configuration>
+                  <tasks>
+                    <echo>compile phase</echo>
+                  </tasks>
+                </configuration>
+              </execution>
+              <execution>
+                <id>id.test</id>
+                <phase>test</phase>
+                <goals>
+                  <goal>run</goal>
+                </goals>
+                <configuration>
+                  <tasks>
+                    <echo>i am dev phase</echo>
+                  </tasks>
+                </configuration>
+              </execution>
+              <execution>
+                <id>id.package</id>
+                <phase>package</phase>
+                <goals>
+                  <goal>run</goal>
+                </goals>
+                <configuration>
+                  <tasks>
+                    <echo>package phase</echo>
+                  </tasks>
+                </configuration>
+              </execution>
+              <execution>
+                <id>id.deploy</id>
+                <phase>deploy</phase>
+                <goals>
+                  <goal>run</goal>
+                </goals>
+                <configuration>
+                  <tasks>
+                    <echo>deploy phase</echo>
+                  </tasks>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+          <!--自动构建插件-->
+          <!--<plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-invoker-plugin</artifactId>
+              <version>2.0.0</version>
+              <configuration>
+                  <debug>true</debug>
+                  <pomIncludes>
+                      <pomInclude>app-web-ui/pom.xml</pomInclude>
+                      <pomInclude>app-desktop-ui/pom.xml</pomInclude>
+                  </pomIncludes>
+              </configuration>
+              <executions>
+                  <execution>
+                      <id>build</id>
+                      <goals>
+                          <goal>run</goal>
+                      </goals>
+                  </execution>
+              </executions>
+          </plugin>-->
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>normal</id>
+      <build>
+        <plugins>
+          <!--这是显示default生命周期的文本信息的插件-->
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-antrun-plugin</artifactId>
+            <version>1.1</version>
+            <executions>
+              <!--execution定义执行的任务与绑定的阶段-->
+              <execution>
+                <id>id.normal</id>
+                <phase>test</phase>
+                <goals>
+                  <goal>run</goal>
+                </goals>
+                <configuration>
+                  <tasks>
+                    <echo>i am normal phase</echo>
+                    <!--<copy file="src/main/resources/env.properties" tofile
+                            ="${project.build.outputDirectory}/env.test.properties"/>-->
+                  </tasks>
+                </configuration>
+              </execution>
+
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>test</id>
+      <properties>
+        <env>test</env>
+      </properties>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+    </profile>
+    <profile>
+      <id>prd</id>
+      <properties>
+        <env>prd</env>
+      </properties>
+    </profile>
+  </profiles>
+
+  <build>
+    <plugins>
+      <!-- 资源文件拷贝插件 -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>2.7</version>
+        <configuration>
+          <encoding>UTF-8</encoding>
+        </configuration>
+      </plugin>
+      <!-- java编译插件 -->
+     <!-- <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.5.1</version>
+        <configuration>
+          <encoding>UTF-8</encoding>
+        </configuration>
+      </plugin>-->
+    </plugins>
+  </build>
+</project>

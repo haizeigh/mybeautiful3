@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:content="http://www.springframework.org/schema/context"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd">
+
+    <!--开启注解扫描-->
+    <!--<content:component-scan base-package="com.company.service.quartzJob"/>-->
+    <task:annotation-driven/>
+
+    <bean id="sendEmailJob" class="org.springframework.scheduling.quartz.JobDetailFactoryBean">
+        <property name="jobClass" value="com.company.service.quartzJob.AutoDayJob"/>
+        <property name="name" value="jobEmail"/>
+        <property name="group" value="group1"/>
+        <property name="durability" value="true"/>
+    </bean>
+
+    <bean id="quartzCountService" class="com.company.service.quartzJob.QuartzCountService"/>
+    <bean id="anotherJobDetail" class="org.springframework.scheduling.quartz.JobDetailFactoryBean">
+        <property name="jobClass" value="com.company.service.quartzJob.AutoJobMore"/>
+        <property name="jobDataMap">
+            <map>
+                <entry key="quartzCountService" value-ref="quartzCountService"/>
+            </map>
+        </property>
+        <property name="name" value="anotherWorker"/>
+        <property name="group" value="group1"/>
+        <property name="durability" value="true"/>
+    </bean>
+
+    <bean id="cronTriggerEmail" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="sendEmailJob"/>
+        <property name="cronExpression" value="0/10 * * ? * *"/>
+        <property name="name" value="triggerEmail"/>
+        <property name="group" value="group11"/>
+    </bean>
+
+    <bean id="cronTriggerMore" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="anotherJobDetail"/>
+        <property name="cronExpression" value="0/10 * * ? * *"/>
+        <property name="name" value="triggerMore"/>
+        <property name="group" value="group12"/>
+    </bean>
+
+
+    <bean id="scheduler" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <!--<property name="dataSource" ref="dataSource"/>-->
+        <!--<property name="configLocation" value="classpath:properties/quartz.properties"/>-->
+        <property name="jobDetails" >
+            <list>
+                <ref bean="sendEmailJob"/>
+                <ref bean="anotherJobDetail"/>
+            </list>
+        </property>
+        <property name="triggers">
+            <list>
+                <ref bean="cronTriggerEmail"/>
+                <ref bean="cronTriggerMore"/>
+            </list>
+        </property>
+    </bean>
+
+    <!--<bean id="scheduler" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        &lt;!&ndash;<property name="dataSource" ref="dataSource"/>&ndash;&gt;
+        <property name="applicationContextSchedulerContextKey" value="applicationContextKey"/>
+        <property name="configLocation" value="classpath:properties/quartz.properties"/>
+    </bean>-->
+
+    <!--简单的定时任务-->
+  <!--  <bean id="simpleJob" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject" ref="myBean"/>
+        <property name="targetMethod" value="printMessage"/>
+    </bean>
+
+    <bean id="simpleTrigger" class="org.springframework.scheduling.quartz.SimpleTriggerFactoryBean">
+        <property name="jobDetail" ref="simpleJob"/>
+        <property name="startDelay" value="1000"/>
+        <property name="repeatInterval" value="2000"/>
+    </bean>
+    &lt;!&ndash;定制任务1&ndash;&gt;
+    <bean id="anotherBean" class="com.company.service.quartz.AnotherBean"></bean>
+
+    <bean name="jobDetail"  class="org.springframework.scheduling.quartz.JobDetailFactoryBean">
+
+        <property name="jobClass" value="com.company.service.quartz.FirstScheduledJob"/>
+        <property name="jobDataMap">
+            <map>
+                <entry key="anotherBean" value-ref="anotherBean"/>
+            </map>
+        </property>
+        <property name="durability" value="true" />
+    </bean>
+
+    <bean id="cronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="jobDetail"/>
+        <property name="cronExpression" value="0/10 * * ? * *" />
+    </bean>
+
+    &lt;!&ndash;定制任务2&ndash;&gt;
+    <bean id="jobDetail2" class="org.springframework.scheduling.quartz.JobDetailFactoryBean">
+        <property name="jobClass" value="com.company.service.quartz.SecondScheduledJob"/>
+        <property name="durability" value="true" />
+    </bean>
+
+    <bean id="cronTrigger2" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="jobDetail2"/>
+        <property name="cronExpression" value="5/6 * * ? * *" />
+    </bean>
+&lt;!&ndash;启动调度器&ndash;&gt;
+    <bean id="scheduler" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+
+        <property name="jobDetails" >
+            <list>
+                <ref bean="simpleJob"/>
+                <ref bean="jobDetail"/>
+                <ref bean="jobDetail2"/>
+            </list>
+        </property>
+
+        <property name="triggers" >
+            <list>
+                <ref bean="simpleTrigger"/>
+                <ref bean="cronTrigger"/>
+                <ref bean="cronTrigger2"/>
+            </list>
+        </property>
+    </bean>
+-->
+
+
+</beans>

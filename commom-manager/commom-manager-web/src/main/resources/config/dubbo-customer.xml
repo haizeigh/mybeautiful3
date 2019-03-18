@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!-- 提供方应用信息，用于计算依赖关系 -->
+    <dubbo:application name="socialFriendsCustomer"/>
+
+    <!-- 使用zookeeper注册中心暴露服务地址 即zookeeper的所在服务器ip地址和端口号 -->
+    <dubbo:registry address="zookeeper://10.200.114.48:2181" />
+    <!-- 用dubbo协议在20880端口暴露服务 -->
+    <dubbo:protocol name="dubbo" port="20880" />
+
+    <!-- 关闭所有服务的启动时检查：(没有提供者时报错) -->
+    <!--    dubbo对于依赖的服务默认采取了启动的时候就做服务可用性检查，若是不可用将会抛出异常-->
+    <dubbo:consumer check="false" timeout="10000" filter="consumerTraceIdFilter"/>
+
+    <dubbo:reference interface="com.company.fcade.SocialFriendsInte" id="socialFriendsService" retries="0" />
+
+    <dubbo:reference interface="com.company.fcade.QuartzJobServiceFcade" id="quartzJobService" retries="0"/>
+
+
+</beans>

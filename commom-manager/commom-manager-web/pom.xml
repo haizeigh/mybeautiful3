@@ -1,0 +1,99 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>commom-manager</artifactId>
+        <groupId>com.company</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>commom-manager-web</artifactId>
+    <packaging>war</packaging>
+    <name>commom-manager-web</name>
+    <version>1.0.0</version>
+    <url>http://maven.apache.org</url>
+    <dependencies>
+        <!-- 依赖与service模块 -->
+        <dependency>
+            <groupId>com.company</groupId>
+            <artifactId>commom-manager-pojo</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.company</groupId>
+            <artifactId>commom-manager-fcade</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+       <!-- JavaMelody 能够监测Java或Java EE应用程序服务器，并以图表的方式显示
+        <dependency>
+            <groupId>net.bull.javamelody</groupId>
+            <artifactId>javamelody-core</artifactId>
+            <version>1.47.0</version>
+        </dependency>
+-->
+        <!--shiro-->
+        <dependency>
+        <groupId>org.apache.shiro</groupId>
+        <artifactId>shiro-core</artifactId>
+        <version>1.2.2</version>
+    </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-ehcache</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-web</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-quartz</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-spring</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+
+
+
+
+        <!--其他-->
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>3.2.1</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <finalName>commom-manager-web</finalName>
+
+        <filters>
+            <filter>src/main/resources/env/${env}Url.properties</filter>
+        </filters>
+        <resources>
+            <resource>
+                <!--这个是地址，表示加载这个地址配置的文件-->
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.*</include>
+                </includes>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+
+        <!--<plugins>-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-war-plugin</artifactId>-->
+            <!--</plugin>-->
+        <!--</plugins>-->
+    </build>
+
+
+
+</project>

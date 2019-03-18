@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/rabbit http://www.springframework.org/schema/rabbit/spring-rabbit.xsd">
+    <!--生产者——rabbitMq——消费者，rabbitMq直接安装到linux机器上-->
+    <!--如果exchange和queue都是持久化的,那么它们之间的binding也是持久化的,如果exchange和queue两者之间有一个持久化，一个非持久化,则不允许建立绑定.-->
+
+    <!--配置connection-factory，指定连接rabbit server参数 -->
+    <!--自己配置的账户，以使用mq-->
+    <rabbit:connection-factory id="connectionFactory"  username="asdf" password="123456"  host="10.200.114.43" port="5672"/>
+
+    <!--定义rabbit template用于数据的接收和发送 -->
+    <!--通过amqpTemplate 向交换机 exchangeTest 发送消息，依次定义不同交换机-->
+    <rabbit:template id="amqpTemplate" connection-factory="connectionFactory" exchange="exchangeTest" message-converter="jsonMessageConverter" />
+
+    <rabbit:template id="amqpTemplateTopic" connection-factory="connectionFactory" exchange="exchangeTopic"  message-converter="jsonMessageConverter"/>
+
+    <rabbit:template id="amqpTemplateFanout" connection-factory="connectionFactory" exchange="exchangeFanout"  message-converter="jsonMessageConverter"/>
+    <!--这个是测试动态修改模板-->
+    <rabbit:template id="amqpTemplateFanoutTest" connection-factory="connectionFactory" exchange="exchangeFanoutTest"  message-converter="jsonMessageConverter"/>
+    <!-- 消息对象json转换类 message-converter="jsonMessageConverter" -->
+    <bean id="jsonMessageConverter" class="org.springframework.amqp.support.converter.Jackson2JsonMessageConverter" />
+
+    <!--通过指定下面的admin信息，当前producer中的exchange和queue会在rabbitmq服务器上自动生成 -->
+    <rabbit:admin id="rabbitAdmin" connection-factory="connectionFactory"/>
+
+    <!--定义queue -->
+    <rabbit:queue name="queueDir1"  auto-delete="false" exclusive="false" durable="true"/>
+    <rabbit:queue name="queueDir2"  auto-delete="false" exclusive="false" durable="true"/>
+    <rabbit:queue name="queueDir3"  auto-delete="false" exclusive="false" durable="true"/>
+
+    <rabbit:queue name="queueTopic1"  auto-delete="false" exclusive="false" durable="true"/>
+    <rabbit:queue name="queueTopic2"  auto-delete="false" exclusive="false" durable="true"/>
+
+    <rabbit:queue name="queueFanout3"  auto-delete="false" exclusive="false" durable="true"/>
+    <rabbit:queue name="queueFanout4"  auto-delete="false" exclusive="false" durable="true"/>
+    <rabbit:queue name="queueFanout5"  auto-delete="false" exclusive="false" durable="true"/>
+
+    <!-- 定义direct exchange，绑定queueTest -->
+    <!--Direct Exchange:直接匹配,通过Exchange名称+RountingKey来发送与接收消息.-->
+    <!--Fanout Exchange:广播订阅,向所有的消费者发布消息,,忽略Routing Key.-->
+    <!--Topic Exchange：主题匹配订阅,这里的主题指的是RoutingKey,RoutingKey可以采用通配符,如:*或#-->
+    <rabbit:direct-exchange id="exchangeTest"  name="exchangeTest" durable="true" auto-delete="false">
+        <rabbit:bindings>
+            <rabbit:binding queue="queueDir1" key="red"></rabbit:binding>
+            <rabbit:binding queue="queueDir2" key="black"></rabbit:binding>
+            <rabbit:binding queue="queueDir3" key="black"></rabbit:binding>
+        </rabbit:bindings>
+    </rabbit:direct-exchange>
+    <!--如果有两个接收程序都是用了同一个的queue和相同的routi ngKey去绑定direct exchange的话，分发的行为是负载均衡的，也就是说第一个是程序1收到，第二个是程序2收到，以此类推。-->
+    <!--如果有两个接收程序用了各自的queue，但使用相同的routingKey去绑定direct exchange的话，分发的行为是复制的，也就是说每个程序都会收到这个消息的副本。行为相当于fanout类型的exchange。-->
+    <rabbit:fanout-exchange id="exchangeFanout"  name="exchangeFanout" durable="true" auto-delete="false">
+        <rabbit:bindings>
+            <rabbit:binding queue="queueFanout3" ></rabbit:binding>
+            <rabbit:binding queue="queueFanout4" ></rabbit:binding>
+        </rabbit:bindings>
+    </rabbit:fanout-exchange>
+
+
+    <rabbit:topic-exchange id="exchangeTopic"  name="exchangeTopic" durable="true" auto-delete="false">
+        <rabbit:bindings>
+            <rabbit:binding queue="queueTopic1" pattern="topic.red" ></rabbit:binding>
+            <rabbit:binding queue="queueTopic2" pattern="topic.*" ></rabbit:binding>
+        </rabbit:bindings>
+    </rabbit:topic-exchange>
+<!--测试动态修改监听规则-->
+    <rabbit:fanout-exchange id="exchangeFanoutTest"  name="exchangeFanoutTest" durable="true" auto-delete="false">
+        <rabbit:bindings>
+            <rabbit:binding queue="queueFanout5" ></rabbit:binding>
+        </rabbit:bindings>
+    </rabbit:fanout-exchange>
+
+    <!-- 消息接收者 -->
+    <bean id="messageReceiver" class="com.company.service.rabbit.MessageConsumeService"/>
+    <bean id="messageReceiver2" class="com.company.service.rabbit.MessageConsumeService2"/>
+    <bean id="messageReceiver7" class="com.company.service.rabbit.MessageConsumeService2_2"/>
+
+    <bean id="messageReceiver3" class="com.company.service.rabbit.MessageConsumeService3"/>
+    <bean id="messageReceiver4" class="com.company.service.rabbit.MessageConsumeService4"/>
+
+    <bean id="messageReceiver5" class="com.company.service.rabbit.MessageConsumeService5"/>
+    <bean id="messageReceiver6" class="com.company.service.rabbit.MessageConsumeService6"/>
+
+    <bean id="messageReceiver8" class="com.company.service.rabbit.MessageConsumeService7"/>
+    <bean id="messageReceiver9" class="com.company.service.rabbit.MessageConsumeService9"/>
+
+    <!-- queue litener  观察 监听模式 当有消息到达时会通知监听在对应的队列上的监听对象-->
+    <rabbit:listener-container id="messageListenerContainer"   connection-factory="connectionFactory">
+        <rabbit:listener  ref="messageReceiver" queues="queueDir1"/>
+        <rabbit:listener ref="messageReceiver2" queues="queueDir2"/>
+        <rabbit:listener ref="messageReceiver7" queues="queueDir3"/>
+
+        <rabbit:listener ref="messageReceiver3" queues="queueFanout3"/>
+        <rabbit:listener ref="messageReceiver4" queues="queueFanout4"/>
+        <!--测试动态修改监听规则-->
+        <rabbit:listener id="messageReceiver8" ref="messageReceiver8" queues="queueFanout5"/>
+
+        <rabbit:listener ref="messageReceiver5" queues="queueTopic1"/>
+        <rabbit:listener ref="messageReceiver6" queues="queueTopic2"/>
+    </rabbit:listener-container>
+
+</beans>

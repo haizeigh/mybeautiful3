@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--&lt;!&ndash;设置密码匹配器&ndash;&gt;
+    <bean id="credentialsMatcher" class="com.pptv.pay.manager.shiro.realm.RetryLimitHashedCredentialsMatcher">
+        <constructor-arg ref="ehcacheManager"/>
+        <property name="hashAlgorithmName" value="md5"/>
+        <property name="hashIterations" value="2"/>
+        <property name="storedCredentialsHexEncoded" value="true"/>
+    </bean>-->
+
+</beans>

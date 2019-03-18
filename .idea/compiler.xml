@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="commom-manager-fcade" />
+        <module name="commom-manager-mapper" />
+        <module name="commom-manager-pojo" />
+        <module name="commom-manager-service" />
+        <module name="commom-manager-web" />
+        <module name="commom-mapper" />
+        <module name="commom-pojo" />
+        <module name="commom-utils" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.7">
+      <module name="commom-manager" target="1.7" />
+      <module name="commom-manager-fcade" target="1.7" />
+      <module name="commom-manager-mapper" target="1.7" />
+      <module name="commom-manager-pojo" target="1.7" />
+      <module name="commom-manager-service" target="1.7" />
+      <module name="commom-manager-web" target="1.7" />
+      <module name="commom-parent" target="1.5" />
+      <module name="commom-utils" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

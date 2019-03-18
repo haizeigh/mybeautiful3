@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="commom-manager-service:war">
+    <output-path>$PROJECT_DIR$/commom-manager/commom-manager-service/target</output-path>
+    <root id="archive" name="commom-manager-service.war">
+      <element id="artifact" artifact-name="commom-manager-service:war exploded" />
+    </root>
+  </artifact>
+</component>

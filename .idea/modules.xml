@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/commom-manager/commom-manager.iml" filepath="$PROJECT_DIR$/commom-manager/commom-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commom-manager/commom-manager-fcade/commom-manager-fcade.iml" filepath="$PROJECT_DIR$/commom-manager/commom-manager-fcade/commom-manager-fcade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commom-manager/commom-manager-mapper/commom-manager-mapper.iml" filepath="$PROJECT_DIR$/commom-manager/commom-manager-mapper/commom-manager-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commom-manager/commom-manager-pojo/commom-manager-pojo.iml" filepath="$PROJECT_DIR$/commom-manager/commom-manager-pojo/commom-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commom-manager/commom-manager-service/commom-manager-service.iml" filepath="$PROJECT_DIR$/commom-manager/commom-manager-service/commom-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commom-manager/commom-manager-web/commom-manager-web.iml" filepath="$PROJECT_DIR$/commom-manager/commom-manager-web/commom-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commom-parent/commom-parent.iml" filepath="$PROJECT_DIR$/commom-parent/commom-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commom-utils/commom-utils.iml" filepath="$PROJECT_DIR$/commom-utils/commom-utils.iml" />
+    </modules>
+  </component>
+</project>

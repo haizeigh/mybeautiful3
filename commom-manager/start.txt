@@ -1,0 +1,14 @@
+﻿1.本地D盘zk	D:\zookeeper-3.4.10\zookeeper-3.4.10\bin\zkServer.cmd
+2.本地D盘redis  D:/Redis/redis-server.exe
+
+3.虚拟机 mq
+mq启动： rabbitmq-server   
+redis启动：redis-server   
+到目录/usr/local/redis-3.0.7 启动哨兵 redis-sentinel sentinel.conf
+哨兵服务异常somaxconn： echo 1000 >/proc/sys/net/core/somaxconn
+
+4.遇到server的dubbo连接很慢，导致短期web无法调用  发现是mq的虚拟机ip变化导致mq连接不上，server的dubbo注册一直在等待
+  D:\zookeeper-3.4.10\zookeeper-3.4.10\bin\zkCli.cmd  
+	（查看dubbo服务）ls /dubbo
+	（查看dubbo上SocialFriendsInte的消费者）/dubbo/com.company.fcade.SocialFriendsInte/consumers
+	（查看dubbo上SocialFriendsInte的生产者）/dubbo/com.company.fcade.SocialFriendsInte/providers
