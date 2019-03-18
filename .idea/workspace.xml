@@ -8,669 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cc2ef39-7edb-4f0d-ac8f-1fae7c771553" name="默认的" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/commom_manager_service_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/commom_manager_service_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/commom_manager_web_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/commom_manager_web_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/commom_utils_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/commom_utils_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/e114fddf-4773-4cc0-bf75-ad44d3937529.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_0_2_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_5_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_company_commom_manager_fcade_1_0_SNAPSHOT.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_company_commom_manager_pojo_1_0_SNAPSHOT.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_kevinsawicki_http_request_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_3_5_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_beta_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_apache_log4j_extras_1_2_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_25.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_5_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_9_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_9_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_ehcache_1_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_quartz_1_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensymphony_quartz_quartz_1_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_jobs_2_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_21.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_1_4_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_1_4_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_1_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_7_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_1_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_1_2_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_16_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_16_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_16_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_16_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_16_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_16_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_16_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_16_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_1_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_16_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_16_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_16_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_16_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_16_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_16_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__portlet_api_portlet_api_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_0_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-fcade/commom-manager-fcade.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-fcade/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-fcade/src/main/java/com/company/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-fcade/src/main/java/com/company/dubboFilter/ConsumerTraceIdFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-fcade/src/main/java/com/company/dubboFilter/ProviderTraceIdFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-fcade/src/main/java/com/company/fcade/QuartzJobServiceFcade.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-fcade/src/main/java/com/company/fcade/SocialFriendsInte.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-fcade/src/main/java/com/company/logFilter/Log4jFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-fcade/src/main/java/com/company/utils/DateUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-fcade/src/main/java/com/company/utils/Jsons.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-fcade/src/main/java/com/company/utils/TraceIdUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-fcade/src/main/java/com/company/utils/XmlReaders.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-fcade/src/test/java/com/company/AppTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-mapper/commom-manager-mapper.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-mapper/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-mapper/src/main/java/com/company/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-mapper/src/main/java/com/company/Test3.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-mapper/src/test/java/com/company/AppTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-pojo/commom-manager-pojo.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-pojo/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-pojo/src/main/java/com/company/pojo/dao/SocialDynamicDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-pojo/src/main/java/com/company/pojo/dao/SocialFriendshipDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-pojo/src/main/java/com/company/pojo/dao/SocicalUserDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-pojo/src/main/java/com/company/pojo/model/JobEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-pojo/src/main/java/com/company/pojo/model/SocialDynamic.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-pojo/src/main/java/com/company/pojo/model/SocialFriendship.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-pojo/src/main/java/com/company/pojo/model/SocicalUser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-pojo/src/main/java/com/company/pojo/model/Test2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-pojo/src/main/java/com/company/pojo/service/ServiceHander.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-pojo/src/test/java/com/company/AppTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/commom-manager-service.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/constants/ConstantsProperties.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/curatorLock/DistributeLock.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/db/DataEnum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/db/DataSelecter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/db/DataSourceAspectJ.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/db/DataSourceHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/db/DynamicDataSource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/dubbo/DubboLifeCircleAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/dubbo/impl/DubboLifeCircleAOImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/http/Http.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/http/HttpMethod.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/http/Https.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/http/HttpsException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/quartz/AnotherBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/quartz/FirstScheduledJob.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/quartz/HelloJob.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/quartz/HelloJobListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/quartz/MyBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/quartz/SecondScheduledJob.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/quartz/TestAnnotation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/quartz/TestQuartz.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/quartz/TestquartzJDBC.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/quartzJob/AutoDayJob.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/quartzJob/AutoJobMore.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/quartzJob/Encrypt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/quartzJob/QuartzCountService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/rabbit/EndPoint.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/rabbit/MessageConsumeService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/rabbit/MessageConsumeService2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/rabbit/MessageConsumeService2_2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/rabbit/MessageConsumeService3.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/rabbit/MessageConsumeService4.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/rabbit/MessageConsumeService5.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/rabbit/MessageConsumeService6.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/rabbit/MessageConsumeService7.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/rabbit/MessageConsumeService9.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/rabbit/MessageProductService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/rabbit/Producer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/rabbit/QueueConsumer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/rabbit/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/serviceimp/QuartzJobService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/serviceimp/SocialFriendsImp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/serviceimp/service/SocialFriendService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/RSAUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestBeanCopy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestCanlende.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestCheckFundsToEmail.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestContinue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestElse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestEmail.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestExecption.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestFastJson.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestIOs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestIf.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestInteger.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestIp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestJson.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestJsonToUrl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestJsoup.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestListSize.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestLog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestMapIte.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestReadWriteLock.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestRedis.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestRedis2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestReg.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestSHA1Digest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestSpliteString.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestTime.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestXml.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/model/PayAgreementInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/sort/Sort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/sort/SortNumberUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/testExtent/Bird.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/testExtent/GeZi.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/testExtent/TestMai.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/testJframe/Test2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/testJframe/TestController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/testJframe/TestJframe.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/testJframe/TestMouse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/testJframe/TestRobot.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/testVolatile/TestVolatile1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/testVolatile/TestVolatile2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/testguava/TestEvenBus.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/testguava/TestGuava1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/transaction/DebugUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/resources/META-INF/dubbo/com.alibaba.dubbo.rpc.Filter" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/resources/config/dubbo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/resources/config/quartz.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/resources/config/rabbit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/resources/config/redis.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/resources/config/spring-mybatis.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/resources/config/spring.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/resources/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/resources/mapper/SocialDynamicMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/resources/mapper/SocialFriendshipMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/resources/mapper/SocicalUserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/resources/properties/dataSource.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/resources/properties/redis.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/webapp/WEB-INF/lib/id2-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/webapp/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-service/src/test/java/com/company/AppTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/commom-manager-web.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/annotation/CustomBeanProcess.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/annotation/PayRuleRegister.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/controller/IndexController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/controller/QuartzController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/controller/Test0.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/model/Response.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/service/engine/PayEngine.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/service/engine/PayRule.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/service/engine/payRuleImpl/AliPayRule.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/service/engine/payRuleImpl/BankPayRule.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/service/engine/payRuleImpl/SnPayRule.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/service/engine/payRuleImpl/WxPayRule.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/service/helper/IPUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/shiro/dao/ShiroMerchantResourceDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/shiro/dao/ShiroRoleDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/shiro/dao/ShiroUserDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/shiro/dao/UrlFilterDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/shiro/model/ShiroMerchantResource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/shiro/model/ShiroRole.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/shiro/model/ShiroUser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/shiro/model/UrlFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/shiro/realm/RetryLimitHashedCredentialsMatcher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/shiro/realm/UserRrealm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/shiro/service/PasswordHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/shiro/service/ResourceService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/shiro/service/RoleService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/shiro/service/ShiroFilerChainManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/shiro/service/UrlFilterService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/shiro/service/UserService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/utils/Constants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/utils/FieldUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/java/com/company/web/utils/WebResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/resources/META-INF/dubbo/com.alibaba.dubbo.rpc.Filter" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/resources/config/dubbo-customer.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/resources/config/rabbit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/resources/config/redis.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/resources/config/session.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/resources/config/spring-mvc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/resources/config/spring-mybatis.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/resources/config/spring-shiro.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/resources/config/tx.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/resources/env/prdUrl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/resources/env/testUrl.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/resources/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/resources/mapper/ShiroResourceMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/resources/mapper/ShiroRoleMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/resources/mapper/ShiroUserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/resources/mapper/UrlFilterMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/resources/other/quartz.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/resources/properties/dataSource.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/resources/properties/redis.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/resources/properties/url.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/resources/sql/social.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/WEB-INF/Response.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/WEB-INF/appendix/cusHead.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/WEB-INF/quartz/addjob.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/WEB-INF/quartz/listjob.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/WEB-INF/quartz/message.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/WEB-INF/social_page/login.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/WEB-INF/social_page/state_friend.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/WEB-INF/social_page/state_friend.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/WEB-INF/social_page/state_friend1.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/error.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/css/aboutus.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/css/boxy,jquery.fancybox-1.3.4.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/css/cityguide.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/css/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/css/download.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/css/faxian.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/css/global.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/css/huidong.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/css/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/css/journey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/css/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/css/product-details.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/css/reg.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/css/search.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/css/skin_green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/css/youhui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/02936089a5058f3aa0dac4a8185e5838-175-175_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/04a54c1c09281d5eba33458ba89a5a8b_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/08dea19c7b1d83b33a761e953306a602.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/0_201301211158_youhui.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/0_201303070927_index_fp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/0_201303151004_index_fp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/0a96775c24d9642c96b544a68a301655_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/10_201303151012_index_fp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/11_201301141122_youhui.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/11_201303151011_index_fp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/12_201301291131_youhui.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/12ce91e890dd4b12fcec282f6d933930_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/1854a49445f98778f0ed1c8cc3ac96dc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/1_201301141117_youhui.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/1_201301281014_youhui.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/1_201303081422_gl.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/1db84fba87b85bcebcd23e42303ae6aa_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/1e8404c0a1add2d2b428f4b16021b562_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/1f4370afa34ea1c909604cd54933e413_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/20b3e2d1a6a8581baf71217cd3f23a6d_j.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/25_201301110933_new_event.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/26_201301110930_new_event.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/27_201301110930_new_event.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/2_201301141117_youhui.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/2_201303081428_gl.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/2_201303121748_gl.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/2be24c2db381eac27a7e70b2c9483c3e_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/2fc4276f38ae1ffe5dd2a7118a5dc795_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/3077be133cc85ededd1aa285eaf1c7e3_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/31_201209260852_zhuanti.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/31a704bc4f8e45f01567399a62423014.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/322914ec8644f1a44bfbf9931e8ba86f_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/34c0bc2359667f0f6414cd1b53742d62_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/353bcc09466ab6ffcbab1e0b8c428caa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/36c66881a0473b2b8591f249c9d4a766_j.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/3771bde6633cf9e9b78636f1c91010de_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/3ab80ebeb228e7f98be98ee1f042f283.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/3aedfe2ee2f96e8778c5a61176f0d6ed_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/3c17caa7980a250fdb06e018678c7368_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/3c46cf8637868b87495577f051afb6d3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/3de644286aafb7e5b26f58ec57d05d2d_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/418ae0a887400089c3998c2df5c473ad_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/41_201301181731_zhuanti.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/44_201211261336_zhuanti.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/45e5f8a38ff6dfe8fcfeb37d41bd5f59.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/4633f1596a06635375fd46f6e305ba83_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/4633f1596a06635375fd46f6e305ba83_j.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/4dfc10707ea005f964d3d280d0e9156f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/509ca4efe0e582570e47eb441f0a781c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/536270584ee406f8eebf2988d35d46e1_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/565879a24261d4972cae8323730465ce.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/59597aab6688f7156f1044fa1d63070c_j.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/59fc8f0462ffe6f81ff9f842def95471_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/5b3da3e2b5c4b0f1e0e7c49eac0ab7a4_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/5f45080874b9502e80cbfcc3e10c6dd3-175-175_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/68239d669ce62ddd93cc8681ad8e1071_m.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/69028b57dcedb33d318967b3e4920eba.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/69b52ff1b88d6d1ea3108f84f0e011cf.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/6_201302280942_index_fp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/6_201303041003_index_fp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/6b8f106ed698f9b5b1a64cefacd3ddfa_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/6c29f72d87fac052f741691b3d741120_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/6f2c19ed430e457235c76dff76a7ce57_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/755638f42b12fb67ef41212a511c5970_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/75b4f688eecaaced0a603d7bbdd68349_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/76ca11b55c7c0d0e7f35d45949b0289b_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/78c979cd5a149fbf317d0529bc4970a5_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/7_201303151011_index_fp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/7b0316987de43cb00d7bdbb230a0beb3_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/7e47c4797cee72fec2eed8b9c6d1e71a_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/806994e5870dd7cce56e9f5e1e6ba581_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/83fa5a432ae55c253d0e60dbfa716723_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/8_201303151013_index_fp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/8b4f8b2d42f965913f12bc47f15dddfe_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/8c3f83437d796ad1ebad339aa1e20117.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/8dd45f1f007ad662e68a0929a72587f4_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/8ec44886bac029c30e931b67be5922ec-175-175_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/901cea744e4bbba214c30dc018128cf5_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/9246444d94f081e3549803b928260f56_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/95afcf30974ba6b3ed3c3201873e986b_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/991746c35ca5066549c71bb7207c9cd4_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/9_201301141122_youhui.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/9e1c026cd3b0106e58c9813c4ec28b33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/a47ce4c72d571f0edd28146a8bc43aea_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/a48e69216dcc26e72de34fe6aaaeb259_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/a7c453e18ef94453f02f0d103cace3ca_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/aab6c7d6d083055d1d1141c7ef060b87_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/acf60ef1897fcf2a26601b4260d3199f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/advertise_10_201301231323.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/advertise_14_201303151016.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/advertise_16_201302051808.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/advertise_3_201302211233.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/advertise_8_201301231415.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/advertise_9_201302061453.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/app.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/app_feature01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/app_feature02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/app_feature03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/app_feature04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/app_name.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/app_scree_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/app_scree_bg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/app_slogan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/app_tab_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/b001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/b002.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/b083827127352a99797e548b4851c224.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/b1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/b9a0fa1294b54085a086331bd231b7c0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/banner.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/banner_201302051706.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/base.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/bb96fbba3360a18f36e9a9689cd120c2_j.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/bce3160796978614866624025538f718_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/bg_email.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/book-product-details.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/book-product-details.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/boxy-ne.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/boxy-nw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/boxy-se.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/boxy-sw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/btnGreen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/btnRed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/btnYellow.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/btnYellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/btn_all.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/btn_download.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/btn_map.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/btn_pic_r.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/btn_pic_s.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/btn_subscribe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/btn_survey.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/btn_survey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/btn_zhuanti.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/c3a4c546c1099b4e7eecdb6220e48671_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/c5366b3abf09d7a7a4be0c77c61f7c7e.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/c9dbe6237f35eaf8d096786e286ead27_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/caa1e67e30479c2a22af171b0d15a42e_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/chang-place-btn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/chang-place-tab.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/chufa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/chunjie.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/city_coming_soon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/city_line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/class-line-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/click-show.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/close-ico.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/d1eb4d93dd84a2a0ec5b2ea19c263a22_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/d28a4f38621a9c8c7cfce41ddc367a68-175-175_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/d75fa78ee9b0641f8c9c0fc1dc334cdf-175-175_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/de56f7c26bb30d39225e98be94f0bd1c_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/default.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/dian.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/dt-line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/duface.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/e05f7a76bc3118f8645ffba8227d10c7_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/e15faad1da662c685aff6d2d0ae13ce2_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/e49013d74b6b48175c4aaf4d80dd8a50.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/e65688a017a123f6871f596a64900573_s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/eb333687bffa28a588d1af89c31f259c_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/ebb1bd0b8454d7e03524e1457c6153d2_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/eee061f6c94b72e6dcb97f1daaf43e95_j.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/f3c6a36099744fdf9aa2653339aa15b9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/f7896dc56b2f4d349da6a945d10b2546-175-175_c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/fancy_nav_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/fancy_shadow_n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/fancy_title_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/fancy_title_main.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/fancybox-x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/fancybox-y.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/fancybox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/ffe2a13427d47b140c84283dbdc2fc38_s.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/goods_banner_201212051418_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/goods_banner_201212051418_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/goods_banner_201212051418_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/goods_feature_201212051422_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/goods_feature_201212051422_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/goods_feature_201212051422_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/goods_feature_201212051422_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/gotop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/help11.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/help12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/help13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/help14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/help_bg11.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/help_bg12.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/help_bg13.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/help_bg14.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/help_bg15.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/hideimg_0625.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/huidong-zg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/ico_ok.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/icon-down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/icon-up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/icon01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/icon02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/icon032.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/icon05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/icon06.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/icon_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/icon_source.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/indicator.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/intro_201301102119_-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/intro_201301102121_-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/intro_201301102121_-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/intro_201301102121_-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/intro_201301102121_-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/intro_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/intro_bg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/journey-help.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/kaiken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/leftimg_0625.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/li_dot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/line_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/login_nav_1_201303121620.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/login_nav_2_201303120915.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/login_nav_2_201303141650.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/login_nav_4_201303151001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/login_nav_5_201302181027.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/login_poi_2013031109362.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/login_poi_2013031109501.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/login_poi_2013031109523.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/login_poi_2013031110074.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/login_yj_201303081349.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/login_yj_201303081355.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/logo_201302051812.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/lyq-zg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/moreX.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/nav_line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/new_index_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/news_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/on_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/p1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/p2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/price_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/profile-tab-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/profile-tab-line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/profile-tab-select.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/recommend_201301102125_poi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/recommendpoi_201301102125_-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/recommendpoi_201301102125_-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/recommendpoi_201301102125_-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/righimg_0625.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/scene_201301102122_0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/scene_201301102122_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/scene_201301111549_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/score-bar-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/screen01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/screen02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/screen03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/screen04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/screen05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/shangjia_join.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/show_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/sj_ico.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/slide_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/sprite-png8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/spriteIndex.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/step.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/sw_lids_img_201302051725_0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/sw_lids_img_201302051725_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/sw_lids_img_201302051725_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/tab3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/viewimg_0625.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/write-btn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/x_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/zhuanti.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/zhuanti_top_btn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/WdatePicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/WdatePicker.js.bak" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/calendar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/lang/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/lang/zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/lang/zh-tw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/skin/WdatePicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/skin/datePicker.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/skin/default/datepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/skin/default/img.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/skin/whyGreen/bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/skin/whyGreen/datepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/skin/whyGreen/img.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/开发包/lang/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/开发包/lang/zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/开发包/lang/zh-tw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/开发包/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/开发包/skin/WdatePicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/开发包/skin/datePicker.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/开发包/skin/default/datepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/开发包/skin/default/img.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/开发包/skin/whyGreen/bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/开发包/skin/whyGreen/datepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/My97DatePicker/开发包/skin/whyGreen/img.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/WdatePicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/blog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/common,userAutoTips,top,searchTips,uBrade,blogissuebox,personalcard,sidemain,sideinteresteduser,sideuser,sidevistor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/fxzhuanti.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/jquery-1.4.4.min,LAB.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/jquery-1.8.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/jquery.autocomplete,jquery-ui-1.8.14.Draggable.min,jquery.bt.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/jquery.bxSlider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/jquery.cookie,json2,jquery.boxy,jquery.elastic-min,jquery.fancybox-1.3.4.pack,swfobject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/jquery.hoverIntent.minified.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/jquery.uploadify.v2.1.4-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/mapcommon,mapmappicker_bmap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/poi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/js/shell_v2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/commom-manager.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/src/test/java/com/company/AppTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-manager/start.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-parent/commom-parent.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-parent/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-parent/src/main/java/com/company/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-parent/src/test/java/com/company/AppTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-utils/commom-utils.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-utils/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-utils/src/main/java/com/company/MyPortlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-utils/src/main/jetspeed/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-utils/src/main/webapp/WEB-INF/portlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-utils/src/main/webapp/WEB-INF/tld/portlet.tld" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-utils/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-utils/src/main/webapp/help.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-utils/src/main/webapp/maximized.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-utils/src/main/webapp/normal.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/commom-utils/target/classes/com/company/MyPortlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/screenRect.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/commom-parent/target/" />
     <ignored path="$PROJECT_DIR$/commom-utils/target/" />
@@ -705,52 +43,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-450">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1552893762178" expanded="true" signature="233074:233092" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="233074:233105" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="233074:233120" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="233155:235771" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="233168:235756" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="233222:233632" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="233241:233617" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="233373:233597" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="233413:233563" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="233434:233541" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="233682:233988" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="233701:233973" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="233775:233953" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="233815:233919" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="233836:233897" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="234039:234304" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="234058:234289" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="234091:234269" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="234131:234235" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="234152:234213" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="234347:234653" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="234366:234638" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="234440:234618" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="234480:234584" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="234501:234562" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="234704:235036" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="234723:235021" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="234816:235001" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="234856:234967" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="234877:234945" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="235071:235377" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="235090:235362" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="235164:235342" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="235204:235308" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="235225:235286" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="235429:235742" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="235448:235727" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="235522:235707" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="235562:235673" ph="..." />
-                <marker date="1552893762178" expanded="true" signature="235583:235651" ph="..." />
+                <element signature="e#7346#7352#0" expanded="true" />
+                <element signature="e#7424#7430#0" expanded="true" />
+                <element signature="e#7501#7507#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -786,14 +87,14 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commom-parent/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commom-manager/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -955,9 +256,9 @@
         <option value="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/transaction/ee.java" />
         <option value="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/transaction/DebugUtils.java" />
         <option value="$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/TestFastJson.java" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/commom-manager/.gitignore" />
         <option value="$PROJECT_DIR$/commom-parent/.gitignore" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -2148,7 +1449,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="776668000" />
+    <option name="totallyTimeSpent" value="776746000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2161,11 +1462,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33178654" sideWeight="0.44784945" order="17" side_tool="true" content_ui="tabs" x="30" y="225" width="1860" height="590" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35113636" sideWeight="0.49784946" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14516129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14516129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="设计师" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2179,27 +1481,53 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272727" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49602723" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47840908" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3090909" sideWeight="0.49784946" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.4967742" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34318182" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2125" sideWeight="0.55215055" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="控制板" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3688172" sideWeight="0.6090909" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16612904" sideWeight="0.6090909" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23978494" sideWeight="0.3909091" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23978494" sideWeight="0.3909091" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="检验" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33178654" sideWeight="0.44784945" order="17" side_tool="true" content_ui="tabs" x="30" y="225" width="1860" height="590" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35113636" sideWeight="0.49784946" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14516129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="设计师" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32795697" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3159091" sideWeight="0.49413645" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272727" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3090909" sideWeight="0.49784946" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49602723" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.4967742" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34318182" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2125" sideWeight="0.55215055" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="文档" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="100" y="100" width="1720" height="840" />
+      <window_info id="控制板" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3688172" sideWeight="0.6090909" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23978494" sideWeight="0.3909091" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23978494" sideWeight="0.3909091" order="2" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2301,13 +1629,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/quartz/TestAnnotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commom-manager/commom-manager-service/src/main/java/com/company/service/test/testVolatile/TestVolatile2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -2377,7 +1698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2025">
           <caret line="81" column="26" lean-forward="false" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2441,7 +1761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="25" column="107" lean-forward="false" selection-start-line="25" selection-start-column="107" selection-end-line="25" selection-end-column="107" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2548,7 +1867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="73" column="31" lean-forward="false" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2577,7 +1895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-886">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2671,7 +1988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1550">
           <caret line="62" column="84" lean-forward="false" selection-start-line="62" selection-start-column="84" selection-end-line="62" selection-end-column="84" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2697,55 +2013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1552893762178" expanded="true" signature="233074:233092" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="233074:233105" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="233074:233120" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="233155:235771" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="233168:235756" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="233222:233632" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="233241:233617" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="233373:233597" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="233413:233563" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="233434:233541" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="233682:233988" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="233701:233973" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="233775:233953" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="233815:233919" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="233836:233897" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="234039:234304" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="234058:234289" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="234091:234269" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="234131:234235" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="234152:234213" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="234347:234653" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="234366:234638" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="234440:234618" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="234480:234584" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="234501:234562" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="234704:235036" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="234723:235021" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="234816:235001" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="234856:234967" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="234877:234945" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="235071:235377" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="235090:235362" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="235164:235342" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="235204:235308" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="235225:235286" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="235429:235742" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="235448:235727" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="235522:235707" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="235562:235673" ph="..." />
-            <marker date="1552893762178" expanded="true" signature="235583:235651" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2786,19 +2053,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commom-parent/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commom-manager/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commom-manager/commom-manager-web/src/main/webapp/static/images/1854a49445f98778f0ed1c8cc3ac96dc.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commom-parent/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#7346#7352#0" expanded="true" />
+            <element signature="e#7424#7430#0" expanded="true" />
+            <element signature="e#7501#7507#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
