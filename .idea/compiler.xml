@@ -12,20 +12,9 @@
         <module name="commom-manager-pojo" />
         <module name="commom-manager-service" />
         <module name="commom-manager-web" />
-        <module name="commom-mapper" />
-        <module name="commom-pojo" />
         <module name="commom-utils" />
+        <module name="maven-archiver" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.7">
-      <module name="commom-manager" target="1.7" />
-      <module name="commom-manager-fcade" target="1.7" />
-      <module name="commom-manager-mapper" target="1.7" />
-      <module name="commom-manager-pojo" target="1.7" />
-      <module name="commom-manager-service" target="1.7" />
-      <module name="commom-manager-web" target="1.7" />
-      <module name="commom-parent" target="1.5" />
-      <module name="commom-utils" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
