@@ -196,7 +196,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
-            <version>2.5.3</version>
+            <version>2.6.12</version>
             <!--dubbo 依赖 spring 2.5.6.SEC03，而我项目中有用spring 4.3.16.RELEASE，
             所以导致冲突.maven中把dubbo中的spring依赖去除-->
             <exclusions>
